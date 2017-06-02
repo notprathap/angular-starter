@@ -9,14 +9,10 @@ import { ActivatedRoute } from '@angular/router';
   styles: [`
   `],
   template: `
-    <h1>About</h1>
-    <div>
-      For hot module reloading run
-      <pre>npm run start:hmr</pre>
-    </div>
+    <h1>State Info</h1>
     <div>
       <h3>
-        patrick@AngularClass.com
+        Some state-based information
       </h3>
     </div>
     <pre>this.localState = {{ localState | json }}</pre>
